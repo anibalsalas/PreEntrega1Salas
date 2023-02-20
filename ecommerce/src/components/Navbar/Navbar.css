@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #fff159;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.bg-light {
+    background-color: #fff159 !important;
+}
+
+.centroNav {
+    text-align: center;
+    align-items: center
+}
+
+@media(min-width: 1024px) {
+    .navbar-collapse {
+        flex-basis: 100% !important;
+        flex-grow: 1 !important;
+        align-items: center !important;
+    }
+
+    .centroNav {
+        text-align: center;
+        align-items: center
+    }
+}
+
+.filaNav{
+    align-items: center;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+}
+.nav-left{
+    display: grid !important;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    color: #373f79;
+    font-weight: 400;
+}
+/****Cart Widget***/
+.carrito{
+    width: 2rem !important;
+    height: 1.5rem !important;
+}
+.cart-widget {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .qty-display {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    position: absolute;
+    text-align: center;
+    line-height: 17px;
+    color  :black;
+    font-weight:bold;
+  }
+  
